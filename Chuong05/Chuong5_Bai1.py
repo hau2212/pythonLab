@@ -1,7 +1,3 @@
-"""
-nguyen thanh hau
-test git
-"""
 
 """
 nguyen thanh hau
