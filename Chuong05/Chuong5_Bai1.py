@@ -1,9 +1,9 @@
-
 """
 nguyen thanh hau
 24-0-00627
 chuyen doi km sang dam
 """
+
 import sys
 
 MILES = 0.6214
@@ -31,11 +31,11 @@ def getInput():
 
 # Hàm chịu trách nhiệm chính logic , gọi các hàm con
 def main():
-    while True:
+    while tiepTuc:
         km = getInput()
         chuyenDoi(km)
         
-        while True:
+        while tiepTuc:
             cont = input("Do you want to continue? (y/n): ").lower()
             if cont == "n":
                 print("Goodbye.")
