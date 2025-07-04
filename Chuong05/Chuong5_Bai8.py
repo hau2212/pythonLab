@@ -22,9 +22,9 @@ def main():
             userInputFee = float(input("nhap vao gia moi gallon : "))
 
             feetCanXuLy , giaThanhToan , gallonCan = tinhTien(feetOrigin=userInputFeet , giaGallon=userInputFee)
-            print(f"feet can phai xu ly la : {feetCanXuLy:.0f}")
-            print(f"gia can phai tra la : {giaThanhToan:.0f}")
-            print(f"gia {feetCanXuLy} gallon can co  la : {gallonCan:.0f}")
+            print(f"feet can phai xu ly la : {feetCanXuLy:.5f}")
+            print(f"gia can phai tra la : {giaThanhToan:.5f}")
+            print(f"gia cho {feetCanXuLy:.5f} gallon can co  la : {gallonCan:.5f}")
             tiepTuc = str(input("nhap tiepTuc n/y : "))
             if tiepTuc == "n":
                 return
