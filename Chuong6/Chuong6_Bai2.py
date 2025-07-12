@@ -24,4 +24,3 @@ def hienThi(fileName):
     except Exception as e:
         print("Lỗi:", e)
 
-hienThi("numbers.txt")
