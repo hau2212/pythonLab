@@ -6,8 +6,9 @@ chuong trinh nguoi dung nhap ten file va hien thi 5 dong
 """
 import sys
 sys.path.append("..")
-from resource import res as e
+from resource import res as ea
 import os
+ea.tiepTuc()
 
 def hienThi(fileName):
     try:
