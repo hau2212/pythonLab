@@ -4,7 +4,7 @@ Nguyễn thanh hậu
 chuong 6 bai 1
 hien thi file numbers.txt
 """
-
+from resource1 import res as e
 # hàm dùng để hiện thị
 # trả về nội dung file
 def hienThi():
