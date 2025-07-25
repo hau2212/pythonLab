@@ -1,0 +1,4 @@
+tienAn 100 
+tienNha 200 
+tienXe 500 
+tienChoiGai 1000 
